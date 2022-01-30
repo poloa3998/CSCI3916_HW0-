@@ -1,0 +1,22 @@
+Request Headers:
+User-Agent: A header that lets the server and network identify the application, operating system, vender, and/or version of the requesting computer program
+Accept: A header that indicates which content types the client is able to understand, expressed as MIME types.
+Cache-Control: A header that holds the instructions for both request and response which controls the caching in browsers and shared caches
+Postman-Token: In this case is a header used to ensure the receiving server handles each request separately.
+Host: A header that specifies the server that the request is being sent to
+Accept-Encoding: A header that indicates the content encoding that the client can understand
+Connection: A header that controls whether to keep the network connection open after the current request finishes.
+
+
+Response Headers:
+Content-type: Indicates the media type of the response
+Vary: Determines how to match future response headers as to either cache it or request a new one 
+Content-Encoding: The method used to encode the response body 
+Date: A general header that contains the date and time the message was sent
+Server: Contains information on how the server handles request
+Cache-Control: A general header that specifies the rules for caching both request and response
+X-XSS-Protection: A header used to stop pages when they detect a XSS attack
+X-Frame-Options: A header used to prevent clickjacking attacks by making sure the content isn't embedded into other sites
+X-Content-Type-Options: A header used to opt out of a MIME type to prevent MIME sniffing
+Transfer-Encoding: The method used to transfer the entity to the user 
+

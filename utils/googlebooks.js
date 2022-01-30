@@ -19,6 +19,7 @@ module.exports = async (phrase) => {
     headers: results.headers,
     requestHeader: results.config.headers,
   };
+  console.log(objectData);
   return objectData;
 };
 
